@@ -1,0 +1,61 @@
+
+body {
+    margin-left: 25%;
+    background-color: cadetblue;
+}
+
+.user_signup_form {
+    width: 800px;
+    height: 908px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+    margin-top: 5px;
+}
+
+.input_heading_signup_form{
+    margin-top: 20px;
+}
+
+.inputs_of_user_signup_form {
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.submit_user_signup_form{
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: transparent;
+    background-color: rgb(232, 170, 89);
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.submit_user_signup_form:hover {
+    background-color: rgb(170, 144, 109);
+}
+
+.lists_for_user_signup_form {
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.lists_for_user_signup_form::marker {
+    color: red;
+}
+
+.dotRed::marker {
+    color: red;
+}
+
+.dotGreen::marker {
+    color: green;
+}
